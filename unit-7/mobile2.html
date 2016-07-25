@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>A Bad New Mobile App</title>
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+
+	<script src="jquery-1.6.4.js"></script>
+	<script src="jquery.mobile-1.0.1.js"></script>
+</head>
+<body>
+	<div id="likes" data-role="page" data-theme="b">
+		<div data-role="header">
+			<h1>Things I Like</h1>
+		</div>
+
+		<div data-role="content">
+			<ul>
+				<li>Beer</li>
+				<li>Jeeps</li>
+				<li>Scotch</li>
+				<li>Cigars</li>
+				<li>Coffee</li>
+			</ul>
+			<p><a href="#dislikes" data-role="button">Dis-Likes</a></p>
+		</div>
+		<div data-role="footer">	
+			<h4>Page 1 Footer</h4>
+		</div>
+	</div>
+
+	<div id="dislikes" data-role="page" data-theme="b">
+		<div data-role="header">
+			<h1>Things I Don't Like</h1>
+		</div>
+
+		<div data-role="content">
+			<ul>
+				<li>Windows Operating Systems</li>
+				<li>Apple, the Company</li>
+				<li>Laziness</li>
+				<li>Non-Standard Keyboards</li>
+			</ul>
+			<p><a href="#likes" data-role="button">Likes</a></p>
+		</div>
+		<div data-role="footer">
+			<h4>Page 2 Footer</h4>
+		</div>
+	</div>
+
+</body>
+</html>
